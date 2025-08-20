@@ -65,8 +65,6 @@ const RoommateScrollItem = ({ post, type, setConfirm, setConfirmContent }) => {
 		});
 	};
 	const handleClickPost = (matchingPostId) => {
-		let postId = matchingPostId;
-
 		if (typeof matchingPostId === 'object') {
 			if (matchingPostId.id) {
 				postId = matchingPostId.id;
